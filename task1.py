@@ -20,8 +20,3 @@ print('{:.2f}'.format(numpy.percentile(transform_file,90)),
       '{:.2f}'.format(max(transform_file)),
       '{:.2f}'.format(min(transform_file)),
       '{:.2f}'.format(sum(transform_file)/len(transform_file)),sep="\n")
-    
-    
-
-
-
